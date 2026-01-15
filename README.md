@@ -1,6 +1,25 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E64848&height=200&section=header&text=Russel%20Group%20CV&fontColor=ffffff&fontSize=60&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=E64848&height=200&section=header&text=Sotiris%20Kavvouras&fontColor=ffffff&fontSize=60&animation=fadeIn&fontAlignY=38" width="100%"/>
 
-# $\color[RGB]{250,100,122} Information$
+# $\color[RGB]{250,100,122} About$
+
+**Software Engineer | Backend & Cloud Specialist | Consultant**
+
+Detail-oriented Backend & Cloud Engineer with 3+ years of professional experience building scalable, distributed systems, event-driven architectures, and RESTful APIs. Strong foundations in Go, Java, and Python with hands-on exposure to Kubernetes, microservices, Docker, observability, and international delivery. Proven track record in designing and delivering backend services, optimizing deployments, and solving complex technical challenges in production.
+
+## Contact Information
+- 📧 Email: sotos.kavvouras@gmail.com
+- 📱 Phone: +30 695 668 8252
+- 💼 LinkedIn: [sotiris-kavvouras](https://www.linkedin.com/in/sotiris-kavvouras)
+- 🐙 GitHub: [SotirisKavv](https://github.com/SotirisKavv)
+
+## Key Expertise
+- **Backend Development:** Go (Golang), Java Spring Boot, C# .NET Core, Microservices, Event-Driven Architecture
+- **Cloud & DevOps:** Docker, Kubernetes, AWS, GCP, CI/CD
+- **Databases:** PostgreSQL, Redis, SQL, NoSQL
+- **AI/ML:** Python, Machine Learning, Neural Networks
+- **Enterprise Solutions:** Salesforce Development, CPQ, API Integration
+
+# $\color[RGB]{250,100,122} Russell Group CV Template$
 
 This resume template has been developed with the guidance of coaches at the University of Leeds, ensuring it aligns with the standards set forth by the Russell Group in the United Kingdom.
 
