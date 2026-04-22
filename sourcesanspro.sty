@@ -1,0 +1,22 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{sourcesanspro}[2026/04/22 Local fallback for resume builds]
+
+\DeclareOption*{}
+\ProcessOptions\relax
+
+\RequirePackage{fontspec}
+
+\IfFontExistsTF{Source Sans 3}{
+  \newfontfamily\sourcesanspro{Source Sans 3}
+  \newfontfamily\sourcesansprolight{Source Sans 3 Light}
+}{
+  \IfFontExistsTF{TeX Gyre Heros}{
+    \newfontfamily\sourcesanspro{TeX Gyre Heros}
+    \newfontfamily\sourcesansprolight{TeX Gyre Heros}
+  }{
+    \newfontfamily\sourcesanspro{Latin Modern Sans}
+    \newfontfamily\sourcesansprolight{Latin Modern Sans}
+  }
+}
+
+\endinput

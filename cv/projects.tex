@@ -12,16 +12,29 @@
 %---------------------------------------------------------
   \cventry
     {Personal} % Organisation
+    {Homelab Platform \& AI Fitness Tooling} % Project
+    {Private infrastructure} % Location
+    {2025 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Built and maintain a cloud-native homelab on a VM-hosted k3s cluster, managing Kubernetes deployments, Helm-based services, and internal platform routing.}
+        \item {Deployed a custom Go backend for API health monitoring alongside Mealie, Linkding, and Jellyfin, using Homearr as the central service portal.}
+        \item {Currently designing OpenAI-powered backend services for workout logging and next-day WOD suggestions, evaluating FastAPI and C\# .NET Core architectures for future implementation.}
+        \item {\textbf{Technical Skills:} Go, C\# .NET Core, FastAPI, CI/CD, Kubernetes, Helm, OpenAI API.}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Personal} % Organisation
     {Event-Driven Food Delivery System} % Project
     {\href{https://github.com/SotirisKavv/food-delivery-saga}{Github link}} % Location
     {2025} % Date(s)
     {
       \begin{cvitems} % Description(s) of project
-        \item {Architected and implemented a distributed microservices application using Go, demonstrating event-driven design and the Saga pattern for transactional reliability.}
-        \item {Built modular services with gRPC and REST interfaces, containerized via Docker, enabling scalable service interaction.}
-        \item {Integrated PostgreSQL as persistent storage and Redis for lightweight state caching, optimizing throughput and fault tolerance.}
-        \item {Structured clear documentation and architecture diagrams to articulate service boundaries, event flows, business logic, and error handling mechanisms.}
-        \item {\textbf{Technical Skills:} Go Lang, gRPC, REST, Docker, PostgreSQL, Redis, Event-Driven Architecture, Saga Pattern, Docker, Containerization/Orchestration.}
+        \item {Built a production-style event-driven food ordering platform in Go, applying Saga choreography across gateway, inventory, payment, and restaurant services.}
+        \item {Implemented Kafka-based domain event flows with the Transactional Outbox pattern, partition-ordered consumers, retry backoff, and DLQ handling for resilient distributed processing.}
+        \item {Used PostgreSQL as the system of record, Redis for ephemeral payment/cache data, and Docker Compose for local multi-service orchestration.}
+        \item {\textbf{Technical Skills:} Go, Gin, Kafka, PostgreSQL, Redis, Docker Compose, Event-Driven Architecture, Distributed Systems, Saga Pattern, Transactional Outbox.}
       \end{cvitems}
     }
 
@@ -32,11 +45,9 @@
     {2019} % Date(s)
     {
       \begin{cvitems} % Description(s) of project
-        \item {Designed and developed a 3D Tower Defense game in Unity (C\#) demonstrating software architecture, OOP design, and real-time interactive systems — including multiple turret types, enemy wave progression, resource management, camera controls, and UI states (menu, pause, game over).}
-        \item {Implemented core gameplay mechanics such as enemy pathing, turret targeting \& shooting logic, resource economy, and progressive difficulty waves, applying clean code practices and modular component design.}
-        \item {Integrated game state management and event handling for dynamic game progression and interactive feedback loops, enabling strategic player decision-making under load.}
-        \item {Applied version control (Git) and documented game structure, mechanics, and scripting logic for maintainability and potential future extension.}
-        \item {\textbf{Technical Skills:} Unity3D, C\#, OOP, Game Development, Real-Time Systems, Software Architecture, Version Control (Git).}
+        \item {Developed a 3D Tower Defense game in Unity (C\#), implementing core gameplay systems including enemy waves, turret targeting, resource management, and UI state handling.}
+        \item {Applied object-oriented design and modular scripting practices to structure gameplay logic and support future extension.}
+        \item {\textbf{Technical Skills:} Unity3D, C\#, OOP, Game Development, Software Architecture, Git.}
       \end{cvitems}
     }
 
